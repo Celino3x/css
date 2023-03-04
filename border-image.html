@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BorderImage</title>
+    <style>
+        .exemplo{
+            background-color: black;
+            width: 200px;
+            height: 200px;
+            border: 10px solid;
+        }
+
+        #exemplo1{
+            border-image-source: url('https://media.istockphoto.com/id/1248340759/pt/foto/abstract-holographic-3d-wavy-background.jpg?s=612x612&w=is&k=20&c=9h81tXH-choct8GY4pVuIghG7Afs6kk795m8hJv2Quo=');
+        }
+
+        #exemplo2{
+            border-image-source: linear-gradient(Red, blue);
+        }
+
+        #exemplo3{
+            border-image-source: url(border.JPG);
+            border-image-repeat: repeat;
+            border-image-slice:  200;
+        }
+    </style>
+</head>
+<body>
+    <h1>Bordas com Imagens</h1>
+
+    <ul>
+        <li>border-image-source</li>
+        <li>border-image-width</li>
+        <li>border-image-repeat</li>
+        <li>border-image-outset</li>
+        <li>border-image-slice</li>
+    </ul>
+
+    <h2>Exemplo Source</h2>
+
+    <div id="exemplo1" class="exemplo"></div>
+    <br>
+    <div id="exemplo2" class="exemplo"></div>
+
+    <h2>Exemplo Slice</h2>
+
+    <div id="exemplo3" class="exemplo"></div>
+    <br>
+    <div id="exemplo4" class="exemplo"></div>
+</body>
+</html>
