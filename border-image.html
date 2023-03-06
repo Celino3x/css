@@ -11,6 +11,14 @@
             width: 200px;
             height: 200px;
             border: 10px solid;
+            margin: 50px auto;
+        }
+
+        .exemplo:hover{
+            background-color: black;
+            width: 200px;
+            height: 200px;
+            border: 25px solid;
         }
 
         #exemplo1{
@@ -24,8 +32,15 @@
         #exemplo3{
             border-image-source: url(border.JPG);
             border-image-repeat: repeat;
-            border-image-slice:  200;
+            border-image-slice: 200;
         }
+
+        #exemplo4{
+            border-image-source: linear-gradient(orange, red);
+            border-image-slice: 10;
+            border-image-outset: 20px;
+        }
+
     </style>
 </head>
 <body>
@@ -50,5 +65,10 @@
     <div id="exemplo3" class="exemplo"></div>
     <br>
     <div id="exemplo4" class="exemplo"></div>
+
+    <h2>Exemplo Width</h2>
+
+    <div id="exemplo5" class="exemplo"></div>
+    <br>
 </body>
 </html>
