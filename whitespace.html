@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>White Space</title>
+    <style>
+        .exemplo{
+            width: 200px;
+            background-color: chartreuse;
+        }
+
+        span{
+            background-color: seagreen;
+            color: white;
+        }
+
+        #span{
+            background-color: transparent;
+            color: black;
+        }
+
+        .exemplo2{
+            width: 100px;
+            height: 100px;
+            background-color: chartreuse;
+        }
+
+        #nowrap{
+            white-space: nowrap;
+        }
+        
+        #pre{
+            white-space: pre;
+        }
+
+        #pre2{
+            white-space: pre;
+            
+
+        }
+
+        #pre-line{
+            white-space: pre-line;
+        }
+
+        #pre-wrap{
+            white-space: pre-wrap;
+        }
+
+    </style>
+</head>
+<body>
+    <h2>White-space</h2>
+    <p>Define como os espaços em branco do texto de um determinado elemento é tratado</p>
+
+    <i>Exemplos:</i><br><br>
+
+    <code>white-space: normal</code>
+    <p class="exemplo">
+        <span>
+            Ipsum odio perferendis ipsam delectus nemo optio aut ipsa libero nisi iste, quis quibusdam. Recusandae, quia aliquam.
+        </span>
+    </p>
+    
+    <code>white-space: nowrap</code>
+    <p id="nowrap" class="exemplo">
+        <span>
+            Ipsum odio perferendis ipsam delectus nemo optio aut ipsa libero nisi iste, quis quibusdam. Recusandae, quia aliquam.
+        </span>
+    </p>
+
+    <code>white-space: pre</code>
+    <p id="pre" class="exemplo">
+        <span>
+            Ipsum odio perferendis ipsam delectus nemo optio aut ipsa libero nisi iste, quis quibusdam. Recusandae, quia aliquam.
+        </span>
+    </p>
+
+    <p id="pre2" class="exemplo2">
+        <span id="span">
+            Ipsum odio perferendis ipsam delectus nemo optio aut ipsa libero nisi iste, quis quibusdam. Recusandae, quia aliquam.
+        </span>
+    </p>
+
+    <br>
+
+    <code>white-space: pre-line</code>
+    <p id="pre-line" class="exemplo">
+        <span>
+            Ipsum odio perferendis ipsam delectus nemo optio aut ipsa libero nisi iste, quis quibusdam. Recusandae, quia aliquam.
+        </span>
+    </p>
+
+    <code>white-space: pre-wrap</code>
+    <p id="pre-wrap" class="exemplo">
+        <span>
+            Ipsum odio perferendis ipsam delectus nemo optio aut ipsa libero nisi iste, quis quibusdam. Recusandae, quia aliquam.
+        </span>
+    </p>
+
+    <code>white-space: </code>
+    <p id="break-spaces" class="exemplo">
+        <span>
+            Ipsum odio perferendis ipsam delectus nemo optio aut ipsa libero nisi iste, quis quibusdam. Recusandae, quia aliquam.
+        </span>
+    </p>
+
+</body>
+</html>
