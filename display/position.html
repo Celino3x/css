@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position</title>
+
+    <style>
+        body{
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            height: 200vh;
+        }
+
+        .inline{
+            display: inline-block;
+        }
+
+        .exemplo{
+            width: 100px;
+            height: 100px;
+            margin: 10px;
+            padding: 10px;
+            border-radius: 4px;
+        }
+
+        #elemento-1{
+            background-color: orange;
+            position: fixed;
+            bottom: 0;
+            right: 0;
+        }
+
+        #elemento-2{
+            background-color: palevioletred;
+            position: relative;
+            top: 20px;
+        }
+
+        #elemento-3{
+            background-color: palegreen;
+            position: absolute;
+            top: 0px;
+            right: 0;
+        }
+
+        #elemento-4{
+            background-color: paleturquoise;
+        }
+
+        #elemento-5{
+            background-color: violet;
+        }
+
+        #elemento-6{
+            background-color: blueviolet;
+        }
+    </style>
+</head>
+<body>
+    <h1>Posicionando os elementos em tela</h1>
+
+    <p>A propriedade position vai nos ajudar a manipular a localização/posição do elemento na sua página.</p>
+
+    <ul>
+        <li><code>position: static;</code></li>
+        <li><code>position: relative;</code></li>
+        <li><code>position: absolute;</code></li>
+        <li><code>position: fixed;</code></li>
+        <li><code>position: sticky;</code></li>
+    </ul>
+
+    <h3>Exemplos:</h3>
+
+    <div id="elemento-1" class="exemplo inline">Elemento 01</div>
+    <div id="elemento-2" class="exemplo inline">Elemento 02</div>
+    <div id="elemento-3" class="exemplo inline">Elemento 03</div>
+
+    <hr>
+    <div id="elemento-4" class="exemplo">Elemento A</div>
+    <div id="elemento-5" class="exemplo">Elemento B</div>
+    <div id="elemento-6" class="exemplo">Elemento C</div>
+</body>
+</html>

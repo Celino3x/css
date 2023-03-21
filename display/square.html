@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Square</title>
+    <style>
+
+        img{
+            width: 300px;
+            height: 300px;
+        }
+
+        h2{
+            color: rgba(204, 230, 220, 0.603);
+        }
+
+
+        .container{
+            width: 900px;
+            height: 500px;
+            border: 1px solid black;
+        } 
+
+        #boy, #girl, #hacker{
+            width: 300px;
+            height: 300px;
+            border: 1px solid black;
+            position: relative;
+            display: inline-block;
+        }
+
+        #boy img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        #girl img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        #hacker img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        #boy h2{
+            font-size: 40px;
+            font-weight: 900;
+            margin: 0;
+            position: absolute;
+            top:40%;
+            left: 30%;
+        }
+
+        #girl h2{
+            font-size: 40px;
+            font-weight: 900;
+            margin: 0;
+            position: absolute;
+            top:40%;
+            left: 30%;
+        }
+
+        #hacker h2{
+            font-size: 40px;
+            font-weight: 900;
+            margin: 0;
+            position: absolute;
+            top:40%;
+            left: 20%;
+        }
+
+
+    </style>
+</head>
+<body>
+    <section class="container">
+        <div id="boy">
+            <img src="boy.jpg" alt="">
+            <h2>BOY</h2>
+        </div>
+
+        <div id="girl">
+            <img src="girl.jpg" alt="">
+            <h2>GIRL</h2>
+        </div>
+
+        <div id="hacker">
+            <img src="hacker.jpg" alt="">
+            <h2>HACKER</h2>
+        </div>
+    </section>
+</body>
+</html>
