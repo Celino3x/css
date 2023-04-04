@@ -8,7 +8,7 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-/* @media(max-width:795px){
+@media(max-width:795px){
     .img-content{
         width: 500px;
     }
@@ -26,4 +26,4 @@
     .text-content{
         text-align: center;
     }
-} */
+}
